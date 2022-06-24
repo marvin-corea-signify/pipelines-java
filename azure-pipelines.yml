@@ -7,10 +7,10 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
-services:
-  azureSubscription: 'sbx-usc-conn-test-mc'
+#services:
+#  azureSubscription: 'sbx-usc-conn-test-mc'
   
 steps:
 - task: Maven@3
